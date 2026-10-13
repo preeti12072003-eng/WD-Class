@@ -6,6 +6,7 @@ const main=(req,res)=>{
     if(path==="/")
     {
     res.writeHead(200,{"content-type":"text/txt"})
+
     res.write("Welcome to node js server!\n")
     res.end("this is second line");
     } else if (path==="/about"){
