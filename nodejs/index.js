@@ -62,7 +62,7 @@ function logger(req, res, next) {
 app.use(logger);
 
 // Home Route
-app.get('/', (req, res) => {
+app.get('/',(req, res) => {
     res.send("Welcome to Home Page");
 });
 
