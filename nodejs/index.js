@@ -63,12 +63,13 @@ app.use(logger);
 
 // Home Route
 app.get('/',(req, res) => {
+    
     res.send("Welcome to Home Page");
     
 });
 
 // About Route
-app.get('/about', (req, res) => {
+app.get('/about', (req, res) =>{
     res.send("Welcome to About Page");
 });
 
